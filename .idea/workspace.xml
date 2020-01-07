@@ -67,7 +67,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -103,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -289,30 +289,30 @@
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="590" y="236" key="#com.intellij.fileTypes.FileTypeChooser/82.0.1454.864@82.0.1454.864" timestamp="1578372423882" />
-    <state x="199" y="26" key="CommitChangelistDialog2" timestamp="1578375372768">
+    <state x="199" y="26" key="CommitChangelistDialog2" timestamp="1578382379651">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="199" y="26" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578375372768" />
+    <state x="199" y="26" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578382379651" />
     <state x="220" y="75" key="DiffContextDialog" timestamp="1578374887114">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="220" y="75" key="DiffContextDialog/82.0.1454.864@82.0.1454.864" timestamp="1578374887114" />
-    <state width="1411" height="224" key="GridCell.Tab.0.bottom" timestamp="1578382241911">
+    <state width="1411" height="224" key="GridCell.Tab.0.bottom" timestamp="1578382423352">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578382241911" />
-    <state width="1411" height="224" key="GridCell.Tab.0.center" timestamp="1578382241911">
+    <state width="1411" height="224" key="GridCell.Tab.0.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578382423352" />
+    <state width="1411" height="224" key="GridCell.Tab.0.center" timestamp="1578382423352">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.center/82.0.1454.864@82.0.1454.864" timestamp="1578382241911" />
-    <state width="1411" height="224" key="GridCell.Tab.0.left" timestamp="1578382241911">
+    <state width="1411" height="224" key="GridCell.Tab.0.center/82.0.1454.864@82.0.1454.864" timestamp="1578382423352" />
+    <state width="1411" height="224" key="GridCell.Tab.0.left" timestamp="1578382423351">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.left/82.0.1454.864@82.0.1454.864" timestamp="1578382241911" />
-    <state width="1411" height="224" key="GridCell.Tab.0.right" timestamp="1578382241911">
+    <state width="1411" height="224" key="GridCell.Tab.0.left/82.0.1454.864@82.0.1454.864" timestamp="1578382423351" />
+    <state width="1411" height="224" key="GridCell.Tab.0.right" timestamp="1578382423352">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.right/82.0.1454.864@82.0.1454.864" timestamp="1578382241911" />
+    <state width="1411" height="224" key="GridCell.Tab.0.right/82.0.1454.864@82.0.1454.864" timestamp="1578382423352" />
     <state x="587" y="144" key="RollbackChangesDialog" timestamp="1578374888352">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
@@ -321,10 +321,10 @@
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="318" y="76" key="SettingsEditor/82.0.1454.864@82.0.1454.864" timestamp="1578370160775" />
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578375378605">
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578382385404">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578375378605" />
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578382385404" />
     <state x="619" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578373469962">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
