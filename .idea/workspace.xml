@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1604f09e-365d-40dd-b795-a54516d403ba" name="Default Changelist" comment="">
+    <list default="true" id="1604f09e-365d-40dd-b795-a54516d403ba" name="Default Changelist" comment="Branches test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/napier/sem/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +27,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,7 +68,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -80,6 +82,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="mongo:latest" />
+          <option name="commandLineOptions" value="-p 27000:27017" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
@@ -90,8 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Docker.Docker Image" />
+        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578368438497</updated>
-      <workItem from="1578368441312" duration="4571000" />
+      <workItem from="1578368441312" duration="5775000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files">
       <created>1578368733569</created>
@@ -190,11 +205,28 @@
       <option name="project" value="LOCAL" />
       <updated>1578373638384</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Branches test">
+      <created>1578373907743</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1578373907743</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit, adding initial files" />
@@ -204,9 +236,15 @@
     <MESSAGE value="Passing test" />
     <MESSAGE value="License test" />
     <MESSAGE value="Docker+Travis test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker+Travis test" />
+    <MESSAGE value="Add MongoDB" />
+    <MESSAGE value="Branches test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Branches test" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="537" y="80" key="#Docker_Image" timestamp="1578374273036">
+      <screen x="82" y="0" width="1454" height="864" />
+    </state>
+    <state x="537" y="80" key="#Docker_Image/82.0.1454.864@82.0.1454.864" timestamp="1578374273036" />
     <state x="401" y="92" key="#Path_mapping" timestamp="1578369626836">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
@@ -215,42 +253,50 @@
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="402" y="92" key="#Project_Structure/82.0.1454.864@82.0.1454.864" timestamp="1578370263928" />
+    <state x="402" y="92" key="#Pull_Image" timestamp="1578374064796">
+      <screen x="82" y="0" width="1454" height="864" />
+    </state>
+    <state x="402" y="92" key="#Pull_Image/82.0.1454.864@82.0.1454.864" timestamp="1578374064796" />
     <state x="590" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578372423882">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="590" y="236" key="#com.intellij.fileTypes.FileTypeChooser/82.0.1454.864@82.0.1454.864" timestamp="1578372423882" />
-    <state x="199" y="26" key="CommitChangelistDialog2" timestamp="1578373636628">
+    <state x="199" y="26" key="CommitChangelistDialog2" timestamp="1578374838162">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="199" y="26" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578373636628" />
-    <state x="220" y="75" key="DiffContextDialog" timestamp="1578368709021">
+    <state x="199" y="26" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578374838162" />
+    <state x="220" y="75" key="DiffContextDialog" timestamp="1578374887114">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="220" y="75" key="DiffContextDialog/82.0.1454.864@82.0.1454.864" timestamp="1578368709021" />
-    <state width="1411" height="224" key="GridCell.Tab.0.bottom" timestamp="1578370298776">
+    <state x="220" y="75" key="DiffContextDialog/82.0.1454.864@82.0.1454.864" timestamp="1578374887114" />
+    <state width="1411" height="224" key="GridCell.Tab.0.bottom" timestamp="1578374530587">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578370298776" />
-    <state width="1411" height="224" key="GridCell.Tab.0.center" timestamp="1578370298775">
+    <state width="1411" height="224" key="GridCell.Tab.0.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578374530587" />
+    <state width="1411" height="224" key="GridCell.Tab.0.center" timestamp="1578374530587">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.center/82.0.1454.864@82.0.1454.864" timestamp="1578370298775" />
-    <state width="1411" height="224" key="GridCell.Tab.0.left" timestamp="1578370298775">
+    <state width="1411" height="224" key="GridCell.Tab.0.center/82.0.1454.864@82.0.1454.864" timestamp="1578374530587" />
+    <state width="1411" height="224" key="GridCell.Tab.0.left" timestamp="1578374530587">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.left/82.0.1454.864@82.0.1454.864" timestamp="1578370298775" />
-    <state width="1411" height="224" key="GridCell.Tab.0.right" timestamp="1578370298775">
+    <state width="1411" height="224" key="GridCell.Tab.0.left/82.0.1454.864@82.0.1454.864" timestamp="1578374530587" />
+    <state width="1411" height="224" key="GridCell.Tab.0.right" timestamp="1578374530587">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.right/82.0.1454.864@82.0.1454.864" timestamp="1578370298775" />
+    <state width="1411" height="224" key="GridCell.Tab.0.right/82.0.1454.864@82.0.1454.864" timestamp="1578374530587" />
+    <state x="587" y="144" key="RollbackChangesDialog" timestamp="1578374888352">
+      <screen x="82" y="0" width="1454" height="864" />
+    </state>
+    <state x="587" y="144" key="RollbackChangesDialog/82.0.1454.864@82.0.1454.864" timestamp="1578374888352" />
     <state x="318" y="76" key="SettingsEditor" timestamp="1578370160775">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="318" y="76" key="SettingsEditor/82.0.1454.864@82.0.1454.864" timestamp="1578370160775" />
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578373723210">
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578374902505">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578373723210" />
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578374902505" />
     <state x="619" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578373469962">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
