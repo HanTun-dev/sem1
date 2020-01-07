@@ -126,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578368438497</updated>
-      <workItem from="1578368441312" duration="3062000" />
+      <workItem from="1578368441312" duration="3448000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files">
       <created>1578368733569</created>
@@ -149,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578370382246</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="YML Test">
+      <created>1578372477398</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578372477398</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +166,8 @@
     <MESSAGE value="First commit, adding initial files" />
     <MESSAGE value="Hello Test" />
     <MESSAGE value="Docker Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Docker Test" />
+    <MESSAGE value="YML Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="YML Test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="401" y="92" key="#Path_mapping" timestamp="1578369626836">
@@ -174,10 +182,10 @@
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="590" y="236" key="#com.intellij.fileTypes.FileTypeChooser/82.0.1454.864@82.0.1454.864" timestamp="1578372423882" />
-    <state x="434" y="28" key="CommitChangelistDialog2" timestamp="1578370379541">
+    <state x="434" y="28" key="CommitChangelistDialog2" timestamp="1578372475856">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="434" y="28" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578370379541" />
+    <state x="434" y="28" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578372475856" />
     <state x="220" y="75" key="DiffContextDialog" timestamp="1578368709021">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
@@ -202,10 +210,10 @@
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="318" y="76" key="SettingsEditor/82.0.1454.864@82.0.1454.864" timestamp="1578370160775" />
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578370449231">
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578372482590">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578370449231" />
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578372482590" />
     <state x="541" y="225" key="git4idea.merge.GitPullDialog" timestamp="1578368613249">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
