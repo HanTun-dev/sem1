@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1bc5d323-2f7f-454c-a729-238cbfce02ce" name="Default Changelist" comment="MySQL test">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/test_db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="1bc5d323-2f7f-454c-a729-238cbfce02ce" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/seMethods.kotlin_module" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +66,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -126,9 +118,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Application.App" />
         <item itemvalue="Docker.db/Dockerfile" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
       </list>
@@ -167,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578368438497</updated>
       <workItem from="1578368441312" duration="9386000" />
-      <workItem from="1578465524122" duration="3508000" />
+      <workItem from="1578465524122" duration="4859000" />
     </task>
     <task id="LOCAL-00001" summary="First commit, adding initial files">
       <created>1578368733569</created>
@@ -260,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578385174201</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="MySQL test">
+      <created>1578469079326</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578469079326</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,46 +320,46 @@
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="590" y="236" key="#com.intellij.fileTypes.FileTypeChooser/82.0.1454.864@82.0.1454.864" timestamp="1578372423882" />
-    <state x="199" y="26" key="CommitChangelistDialog2" timestamp="1578468577793">
+    <state x="199" y="26" key="CommitChangelistDialog2" timestamp="1578469074245">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="199" y="26" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578468577793" />
+    <state x="199" y="26" key="CommitChangelistDialog2/82.0.1454.864@82.0.1454.864" timestamp="1578469074245" />
     <state x="220" y="75" key="DiffContextDialog" timestamp="1578374887114">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="220" y="75" key="DiffContextDialog/82.0.1454.864@82.0.1454.864" timestamp="1578374887114" />
-    <state width="1411" height="224" key="GridCell.Tab.0.bottom" timestamp="1578469018574">
+    <state width="1411" height="224" key="GridCell.Tab.0.bottom" timestamp="1578470556440">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578469018574" />
-    <state width="1411" height="224" key="GridCell.Tab.0.center" timestamp="1578469018572">
+    <state width="1411" height="224" key="GridCell.Tab.0.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578470556440" />
+    <state width="1411" height="224" key="GridCell.Tab.0.center" timestamp="1578470556440">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.center/82.0.1454.864@82.0.1454.864" timestamp="1578469018572" />
-    <state width="1411" height="224" key="GridCell.Tab.0.left" timestamp="1578469018572">
+    <state width="1411" height="224" key="GridCell.Tab.0.center/82.0.1454.864@82.0.1454.864" timestamp="1578470556440" />
+    <state width="1411" height="224" key="GridCell.Tab.0.left" timestamp="1578470556440">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.left/82.0.1454.864@82.0.1454.864" timestamp="1578469018572" />
-    <state width="1411" height="224" key="GridCell.Tab.0.right" timestamp="1578469018573">
+    <state width="1411" height="224" key="GridCell.Tab.0.left/82.0.1454.864@82.0.1454.864" timestamp="1578470556440" />
+    <state width="1411" height="224" key="GridCell.Tab.0.right" timestamp="1578470556440">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="224" key="GridCell.Tab.0.right/82.0.1454.864@82.0.1454.864" timestamp="1578469018573" />
-    <state width="1411" height="277" key="GridCell.Tab.1.bottom" timestamp="1578469016578">
+    <state width="1411" height="224" key="GridCell.Tab.0.right/82.0.1454.864@82.0.1454.864" timestamp="1578470556440" />
+    <state width="1411" height="277" key="GridCell.Tab.1.bottom" timestamp="1578469424723">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="277" key="GridCell.Tab.1.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578469016578" />
-    <state width="1411" height="277" key="GridCell.Tab.1.center" timestamp="1578469016578">
+    <state width="1411" height="277" key="GridCell.Tab.1.bottom/82.0.1454.864@82.0.1454.864" timestamp="1578469424723" />
+    <state width="1411" height="277" key="GridCell.Tab.1.center" timestamp="1578469424723">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="277" key="GridCell.Tab.1.center/82.0.1454.864@82.0.1454.864" timestamp="1578469016578" />
-    <state width="1411" height="277" key="GridCell.Tab.1.left" timestamp="1578469016578">
+    <state width="1411" height="277" key="GridCell.Tab.1.center/82.0.1454.864@82.0.1454.864" timestamp="1578469424723" />
+    <state width="1411" height="277" key="GridCell.Tab.1.left" timestamp="1578469424723">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="277" key="GridCell.Tab.1.left/82.0.1454.864@82.0.1454.864" timestamp="1578469016578" />
-    <state width="1411" height="277" key="GridCell.Tab.1.right" timestamp="1578469016578">
+    <state width="1411" height="277" key="GridCell.Tab.1.left/82.0.1454.864@82.0.1454.864" timestamp="1578469424723" />
+    <state width="1411" height="277" key="GridCell.Tab.1.right" timestamp="1578469424723">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state width="1411" height="277" key="GridCell.Tab.1.right/82.0.1454.864@82.0.1454.864" timestamp="1578469016578" />
+    <state width="1411" height="277" key="GridCell.Tab.1.right/82.0.1454.864@82.0.1454.864" timestamp="1578469424723" />
     <state x="522" y="149" key="MultipleFileMergeDialog" timestamp="1578465673073">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
@@ -373,10 +372,10 @@
       <screen x="82" y="0" width="1454" height="864" />
     </state>
     <state x="318" y="76" key="SettingsEditor/82.0.1454.864@82.0.1454.864" timestamp="1578370160775" />
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578385188763">
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2" timestamp="1578469082040">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
-    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578385188763" />
+    <state x="402" y="166" key="Vcs.Push.Dialog.v2/82.0.1454.864@82.0.1454.864" timestamp="1578469082040" />
     <state x="619" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578373469962">
       <screen x="82" y="0" width="1454" height="864" />
     </state>
